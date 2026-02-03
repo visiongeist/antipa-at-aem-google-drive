@@ -1,0 +1,5 @@
+/* Non-critical styles loaded after initial render */
+
+footer {
+  display: none;
+}

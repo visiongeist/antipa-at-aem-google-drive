@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.aem.live)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd documentation for Google Drive setup with Adobe AEM\n\nComprehensive guide covering setup steps, content structure, and authoring workflow for using Google Drive as a content source in AEM projects.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "WebFetch(domain:github.com)",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_context7_context7__query-docs",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl:*)",
+      "Bash(npm install:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd AEM Edge Delivery Services project structure\n\nSet up complete Adobe AEM project with:\n- Configuration files \\(package.json, eslint, stylelint, editorconfig\\)\n- Core JavaScript \\(aem.js, scripts.js, delayed.js\\)\n- Monospace aesthetic CSS with 90s background pattern\n- HTML templates \\(head.html, 404.html\\)\n- Directory structure for blocks, styles, scripts, icons\n- README with setup and development documentation\n\nPreserves minimal design with Courier New font, fixed positioning\nat 16.18vw/10vh, and transparent link borders with hover effects.\nReady for Google Drive content integration.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
